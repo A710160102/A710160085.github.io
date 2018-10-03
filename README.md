@@ -16,7 +16,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32"> 
   <h1><b>ANIMASI 2D dan 3D</b></h1>
-  <p>Selamat Datang di Animasiku <span class="w3-tag">unknown</span></p>
+  <p>Selamat Datang di Animasiku <span class="w3-tag"></span></p>
 </header>
 
 <!-- Grid -->

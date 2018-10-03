@@ -67,7 +67,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
+  <img src="IMG_2723.JPG" style="width:100%">
     <div class="w3-container w3-white">
       <h4><b>Biodataku</b></h4>
       <p>Hallo, Namaku Yustika Nurbaiti kalian bisa memanggilku Ayus, Aku disini akan memberikan pengetahuan buat kalian tentang Animasi 2D dan 3D yang diajarkan dosen animasiku selama kuliah di Universitas Muhammadiyah Surakarta. Semoga bermanfaat ya teman-teman.</p>

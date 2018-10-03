@@ -1,6 +1,3 @@
-# A710160085.github.io
-index.html
-<!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">

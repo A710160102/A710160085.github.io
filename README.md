@@ -28,13 +28,12 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-card-4 w3-margin w3-white">
     <img src="1.jpg" alt="Nature" style="width:100%">
     <div class="w3-container">
-      <h3><b>TITLE HEADING</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
+      <h3><b>CBEEBIES HEY DUGGEE</b></h3>
+      <h5>Title description, <span class="w3-opacity">Oktober 03, 2018</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Cbeebies Hey Dugge adalah animasi 2D. Disebut animasi dua dimensi, karena 2D mempunyai ukuran panjang (X-azis) dan ( Y-axis). Realisasi nyata dalam perkembangan dua dimensi yang cukup revolusioner yakni film kartun. Dan animasi 2D adalah animasi yang menggunakan sketsa gambar, lalu sketsa gambar ini digerakkan satu persatu, maka tidak akan terlihat seperti nyata. Disebut animasi 2 dimensi karena dibuat melalui sketsa yang yang digerakan satu persatu sehingga nampak seperti nyata dan bergerak. Animasi 2D hanya bisa dilihat dari depan saja. Animasi sendiri berasal dari bahasa latin yaitu “anima” yang berarti jiwa, hidup, semangat. Sedangkan karakter adalah orang, hewan maupun objek nyata lainnya yang dituangkan dalam bentuk gambar 2D maupun 3D. shingga karakter animasi secara dapat diartikan sebagai gambar yang memuat objek yang seolah-olah hidup, disebabkan oleh kumpulan gambar itu berubah beraturan dan bergantian ditampilkan. Objek dalam gambar bisa berupa tulisan, bentuk benda, warna dan spesial efek.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>

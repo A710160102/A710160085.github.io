@@ -43,21 +43,13 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-card-4 w3-margin w3-white">
   <img src="3.png" alt="Norway" style="width:100%">
     <div class="w3-container">
-      <h3><b>BLOG ENTRY</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+      <h3><b>RISE OF THE GUARDIANDS</b></h3>
+      <h5>Title description, <span class="w3-opacity">oKTOBER 03, 2018</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-        </div>
-      </div>
+      <p>Film ini merupakan salah satu film 3D yaitu objek animasi yang berada pada ruang 3D dan mempunyai panjang x, y dan z.
+ berkisah tentang berkumpulnya para tokoh pahlawan dalam dunia dongeng untuk melawan kekuatan jahat yang berusaha menghancurkan impian anak-anak. Para pahlawan tersebut terdiri dari "North"/ Santa Claus, "Bunnymund"/Easter Bunny , "Tooth" the Tooth Fairy , Jack Frost serta tokoh jahatnya the Boogeyman.</p>
     </div>
   </div>
 <!-- END BLOG ENTRIES -->
@@ -77,7 +69,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Posts -->
   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
-      <h4>Popular Posts</h4>
+      <h4>Kartun Terpopuler</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">

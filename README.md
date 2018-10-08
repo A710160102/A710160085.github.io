@@ -1,128 +1,234 @@
+<!DOCTYPE html>
 <html>
-<title>A710160085</title>
+<title>MY TEMPLATE</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
-<body class="w3-light-grey">
+<body class="w3-light-red w3-content" style="max-width:1600px">
 
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="IMG_6985.JPG" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>TEMPLATE</b></h4>
+    <p class="w3-text-grey">Template by ADHITYAS</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#Template" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>TEMPLATE</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
 
-<!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>ANIMASI 2D dan 3D</b></h1>
-  <p>Selamat Datang di Animasiku <span class="w3-tag"></span></p>
-</header>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- Grid -->
-<div class="w3-row">
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
 
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="1.jpg" alt="Nature" style="width:100%">
+  <!-- Header -->
+  <header id="template">
+    <a href="#"><img src="IMG_6985.JPG" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-      <h3><b>CBEEBIES HEY DUGGEE</b></h3>
-      <h5>Title description, <span class="w3-opacity">Oktober 03, 2018</span></h5>
+    <h1><b>Contoh Animasi 2D dan 3D</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
     </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="tom and jerry.jpg" alt="image" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Tom And Jerry</b></p>
+        <p>Tom and Jerry adalah serial film animasi Amerika yang dibuat pada tahun 1940 oleh William Hanna dan Joseph Barbera. Ini berpusat pada persaingan antara dua karakter judulnya, Tom, kucing, dan Jerry, tikus, dan banyak karakter berulang, yang didasarkan pada komedi slapstick.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="scoobydoo.jpg" alt="image" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Scooby-Doo</b></p>
+        <p>Serial animasi Scooby-Doo diciptakan oleh Joe Ruby, Ken Spears (cerita) dan Iwao Takamoto (perancang karakter) untuk Hanna-Barbera Productions --- produser film animasi yang menghasilkan banyak seri-seri lainnya yang berhubungan dengan Scooby-Doo -- hingga dibelinya rumah produksi ini oleh Warner Bros. pada tahun 1997. Warner Bros. ini kemudian meneruskan produksi serial animasi ini sejak saat itu.
 
-    <div class="w3-container">
-      <p>Cbeebies Hey Dugge adalah animasi 2D. Disebut animasi dua dimensi, karena 2D mempunyai ukuran panjang (X-azis) dan ( Y-axis). Realisasi nyata dalam perkembangan dua dimensi yang cukup revolusioner yakni film kartun. Dan animasi 2D adalah animasi yang menggunakan sketsa gambar, lalu sketsa gambar ini digerakkan satu persatu, maka tidak akan terlihat seperti nyata. Disebut animasi 2 dimensi karena dibuat melalui sketsa yang yang digerakan satu persatu sehingga nampak seperti nyata dan bergerak. Animasi 2D hanya bisa dilihat dari depan saja. Animasi sendiri berasal dari bahasa latin yaitu “anima” yang berarti jiwa, hidup, semangat. Sedangkan karakter adalah orang, hewan maupun objek nyata lainnya yang dituangkan dalam bentuk gambar 2D maupun 3D. shingga karakter animasi secara dapat diartikan sebagai gambar yang memuat objek yang seolah-olah hidup, disebabkan oleh kumpulan gambar itu berubah beraturan dan bergantian ditampilkan. Objek dalam gambar bisa berupa tulisan, bentuk benda, warna dan spesial efek.</p>
-     
+.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="toy story.jpg" alt="image" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Toy Story</b></p>
+        <p>Toy Story adalah film komedi petualangan animasi komputer Amerika tahun 1995 yang diproduksi oleh Pixar Animation Studios untuk Walt Disney Pictures. Berlangsung di dunia di mana mainan antropomorfik berpura-pura mati ketika manusia hadir, plotnya berfokus pada hubungan antara Woody, boneka koboi kuno, dan Buzz Lightyear.</p>
+      </div>
     </div>
   </div>
-  <hr>
-
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-  <img src="3.png" alt="Norway" style="width:100%">
-    <div class="w3-container">
-      <h3><b>RISE OF THE GUARDIANDS</b></h3>
-      <h5>Title description, <span class="w3-opacity">oKTOBER 03, 2018</span></h5>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="tangled.jpg" alt="image" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Tangled</b></p>
+        <p>Kisah seorang gadis muda lugu, Rapunzel, dikurung ibunya yang sangat protektif padanya. Dia ingin melarikan diri ke dunia luar, akhirnya menjadi kenyataan dengan bantuan pencuri yang baik hati, Flynn..</p>
+      </div>
     </div>
-
-    <div class="w3-container">
-      <p>Film ini merupakan salah satu film 3D yaitu objek animasi yang berada pada ruang 3D dan mempunyai panjang x, y dan z.
- berkisah tentang berkumpulnya para tokoh pahlawan dalam dunia dongeng untuk melawan kekuatan jahat yang berusaha menghancurkan impian anak-anak. Para pahlawan tersebut terdiri dari "North"/ Santa Claus, "Bunnymund"/Easter Bunny , "Tooth" the Tooth Fairy , Jack Frost serta tokoh jahatnya the Boogeyman.</p>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="keluarga pak somat.jpg" alt="image" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Keluarga Pak Somat</b></p>
+        <p>Film animasi keluarga somat banyak digemari di kalangan masyarakat karena film ini bergenre komedi dan diproduksi oleh Dreamtoon Baros Studio, PT Animasi Kartun Indonesia. Film animasi ini asli buatan Indonesia dengan durasi 11 menit dan menggunakan bahasa Indonesia. Film animasi ini mulai ditayangkan di televisi pada tahun 2013-2015 sudah menayangkan 232 episode.
+.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="chalkzone.jpg" alt="image" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Chalk Zone</b></p>
+        <p>Serial ini berkisar pada petualangan Rudy bersama Snap kawannya dan teman sekelasnya Penny Sanchez. Rudy Tabootie merupakan seorang anak kecil berusia 10 tahun yang gemar menggambar, Penny Sanchez merupakan teman perempuan yang sekelas dengan Rudy dan dia sangat pintar. Selanjutnya ada Snap, snap merupakan makhluk biru yang baik yang berasal dari dunia kapur. Snap adalah hasil gambar ciptaan Rudy pada usia 8 tahun.</p>
+      </div>
     </div>
   </div>
-<!-- END BLOG ENTRIES -->
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="IMG_6985.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="IMG_7011.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Hallo teman-teman! Perkenalkan nama saya Adhityas Nugraheni Basqoro biasa dipanggil Tyas. Saya membuat template seperti ini agar kalian dapat menambah ilmu tentang contoh animasi 2D dan 3D. Semoga bermanfaat untuk kalian yang membaca.</p>
+    <hr>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>tyasheni9@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Surakarta, ID</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>6271567116</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Template ini berisi tentang contoh-contoh animasi 2D dan 3D.</p>
+      <p>Dibuat oleh Adhityas</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="doraemon.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Doraemon</span><br>
+          <span>Kartun terpopuler</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="sinchan.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Sinchan</span><br>
+          <span>Kartun terpopuler</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Japan</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Indonesian</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Cartoon</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Animation</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Child</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Food</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
 </div>
 
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-  <img src="IMG_2723.JPG" style="width:100%">
-    <div class="w3-container w3-white">
-      <h4><b>Biodataku</b></h4>
-      <p>Hallo, Namaku Yustika Nurbaiti kalian bisa memanggilku Ayus, Aku disini akan memberikan pengetahuan buat kalian tentang Animasi 2D dan 3D yang diajarkan dosen animasiku selama kuliah di Universitas Muhammadiyah Surakarta. Semoga bermanfaat ya teman-teman.</p>
-    </div>
-  </div><hr>
-  
-  <!-- Posts -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Kartun Terpopuler</h4>
-    </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="8.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">TAYO</span><br>
-        <span>Animasi 2D</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="Gambar Marsha and the Bear Lucu 3D.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">MASHA & THE BEAR</span><br>
-        <span>Animasi 3D</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="images.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">TOM & JERRY</span><br>
-        <span>Animasi 2D</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="images.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">DORAEMON</span><br>
-        <span>Animasi 2D</span>
-      </li>  
-    </ul>
-  </div>
-  <hr> 
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
  
-  <!-- Labels / tags -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Tags</h4>
-    </div>
-    <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-    </p>
-    </div>
-  </div>
-  
-<!-- END Introduction Menu -->
-</div>
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 
-<!-- END GRID -->
-</div><br>
-<!-- END w3-content -->
-</div>
-<!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-  <p>By Yustika Nurbaiti</p>
-</footer>
 </body>
 </html>
